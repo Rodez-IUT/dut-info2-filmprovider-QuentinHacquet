@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE librairie SYSTEM "Librairie.dtd">
+<librairie>
+    <en-tête></en-tête>
+    <livre ISBN="486-11">
+        <titre></titre>
+        <auteurs>
+            <nom></nom>
+        </auteurs>
+    </livre>
+</librairie>

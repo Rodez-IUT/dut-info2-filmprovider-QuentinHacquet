@@ -1,0 +1,32 @@
+<!ELEMENT librairie (en-tête,livre)>
+
+<!ELEMENT  en-tête %balise;%C;>
+        <!ELEMENT em (#PCDATA)>
+        <!ELEMENT strong (#PCDATA)>
+        <!ELEMENT img (#PCDATA)>
+        <!ATTLIST img src #REQUIRED
+                      title #IMPLIED>
+
+<!ELEMENT  livre (titre,auteurs+|collectif,description,prix)>
+        <!ELEMENT titre (#PCDATA)>
+        <!ELEMENT auteurs %nomination;>
+            <!ELEMENT nom (#PCDATA)>
+            <!ELEMENT prenom (#PCDATA)>
+
+        <!ELEMENT description %balise;>
+        <!ELEMENT prix (value)>
+            <!ELEMENT value (#PCDATA)>
+            <!ATTLIST prix tva #FIXED "5.5">
+            <!ATTLIST prix devise (euros|dollars|livres) "euros">
+            <!ATTLIST prix type (HT|TTC) "HT">
+
+        <!ATTLIST livre ISBN NMTOKENS #REQUIRED>
+
+        <!ELEMENT  collectif (direction,membres)>
+            <!ELEMENT direction %nomination;>
+            <!ELEMENT membres (textlibre)>
+            <!ELEMENT textlibre (#PCDATA)>
+
+        <!ENTITY C "&#xA9;Librairie & Internet 2020">
+        <!ENTITY balise "(#PCDATA|strong|em|img)*">
+        <!ENTITY nomination "(nom, prenom?)">
