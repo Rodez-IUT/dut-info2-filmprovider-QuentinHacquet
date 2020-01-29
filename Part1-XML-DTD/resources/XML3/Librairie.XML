@@ -8,5 +8,24 @@
             <nom>Assin</nom>
             <prenom>Marc</prenom>
         </auteurs>
+        <description>l allalalala</description>
+        <prix tva="5.5" devise="euros" type="TTC">
+            <value>5</value>
+        </prix>
+    </livre>
+    <livre ISBN="46-11">
+        <titre>test</titre> 
+        <collectif>
+            <direction>
+                <nom>voila</nom>
+            </direction>
+            <membres>
+                <textlibre></textlibre>
+            </membres>
+        </collectif>
+        <description>l allalalala</description>
+        <prix tva="5.5" devise="euros" type="TTC">
+            <value>5</value>
+        </prix>
     </livre>
 </librairie>

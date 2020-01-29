@@ -28,5 +28,5 @@
             <!ELEMENT textlibre (#PCDATA)>
 
         <!ENTITY C "&#xA9;Librairie & Internet 2020">
-        <!ENTITY balise "(#PCDATA|strong|em|img)*">
-        <!ENTITY nomination "(nom, prenom?)">
+        <!ENTITY % balise "(#PCDATA|strong|em|img)*">
+        <!ENTITY % nomination "(nom, prenom?)">
