@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE librairie SYSTEM "Librairie.dtd">
 <librairie>
-    <en-tête></en-tête>
+    <en-tête>Ceci est une en-tête</en-tête>
     <livre ISBN="486-11">
-        <titre></titre>
+        <titre>test</titre>
         <auteurs>
-            <nom></nom>
+            <nom>Assin</nom>
+            <prenom>Marc</prenom>
         </auteurs>
     </livre>
 </librairie>
