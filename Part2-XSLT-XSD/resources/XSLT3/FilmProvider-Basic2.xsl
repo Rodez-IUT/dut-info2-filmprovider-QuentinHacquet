@@ -30,7 +30,7 @@
                 <xsl:value-of select="//realisateur[@id_realisateur=$id]/nom"/>
             </td>
             <td>
-                <xsl:value-of select="//realisateur[@id_realisateur=$id]/prenom"/>
+                <xsl:value-of select="//realisateur[@id_realisateur=$id]/prenom "/>
             </td>
             <td>
                 <xsl:value-of select="titre"/>
