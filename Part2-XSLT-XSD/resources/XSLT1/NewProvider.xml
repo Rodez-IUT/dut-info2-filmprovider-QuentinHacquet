@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<films>
+    <films xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="FilmProvider.xsd"/>
+        <realisateur id_realisateur="01">
+            <prenom>Jean</prenom>
+            <nom></nom>
+        </realisateur>
+        <film id_film="01" id_realisateur="1" annee="2000">
+            <titre></titre>
+            <resume>
+                <image source=""/>
+                <text>voila</text>
+            </resume>
+        </film>
+</films>
+
